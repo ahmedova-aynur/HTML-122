@@ -44,7 +44,6 @@ section .right-side{
 }
 
 .right-side img{
-   
     border-radius: 0px;
     box-shadow: 4px 5px 35px rgba(0,0,0.7);
 }
@@ -54,13 +53,21 @@ section .right-side{
     font-weight: 700;
     color: brown;
 }
-
+a:nth-child(5),
+a:nth-child(6){
+    border: 2px solid #000;
+    padding: 4px;
+}
 
 
 @media(max-width:768px){
     fa-bars{
         display: flex;
         font-size: 32px;
+        color: white;
+    }
+    .header nav {
+        display: none;
         color: white;
     }
 }
